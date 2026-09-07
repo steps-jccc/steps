@@ -1,8 +1,13 @@
 # S.T.E.P.S. - Weekly Bible Study Platform
 
-Interactive weekly Bible study app built around **Scripture → Theme → Engagement → Prayer → Share**.
+Interactive weekly Bible study app built around **Scripture, Theme, Engagement, Prayer, and Share**.
+
+**Repo:** [github.com/steps-jccc/steps](https://github.com/steps-jccc/steps)  
+**GitHub Pages:** [steps-jccc.github.io/steps](https://steps-jccc.github.io/steps/)
 
 Stack: **Next.js (App Router) + Supabase (Auth/Postgres/RLS) + Resend + Vercel Cron**.
+
+> GitHub Pages hosts the project landing page (static). The interactive app is a Next.js server app - run it locally with `npm run dev`, or deploy the repo to a Node host such as Vercel.
 
 ## Features
 
