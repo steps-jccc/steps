@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f3f6f2" />
+    <title>S.T.E.P.S. | Weekly Bible Study</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Newsreader:ital,wght@0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f3f6f2;
+        --ink: #1a2e24;
+        --muted: #4a5d52;
+        --accent: #1f5c45;
+        --line: #d5ddd6;
+        --elev: #fbfcf9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Figtree, system-ui, sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(ellipse 80% 50% at 10% -10%, #e4efe8 0%, transparent 55%),
+          radial-gradient(ellipse 60% 40% at 100% 0%, #f0e8d4 0%, transparent 45%),
+          linear-gradient(180deg, #f7f9f5 0%, var(--bg) 40%, #eef2ec 100%);
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 3rem 1.25rem 4rem;
+      }
+      .brand {
+        font-family: Newsreader, Georgia, serif;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: var(--accent);
+        letter-spacing: -0.02em;
+        margin: 0;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin: 1rem 0 0.5rem;
+      }
+      p { color: var(--muted); line-height: 1.6; }
+      .card {
+        margin-top: 2rem;
+        background: color-mix(in srgb, var(--elev) 92%, white);
+        border: 1px solid var(--line);
+        border-radius: 1.25rem;
+        padding: 1.5rem;
+        box-shadow: 0 12px 40px rgba(26, 46, 36, 0.06);
+      }
+      .card h2 {
+        margin: 0 0 0.75rem;
+        font-size: 1.1rem;
+      }
+      code, pre {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.9rem;
+      }
+      pre {
+        background: #eef2ec;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        overflow-x: auto;
+      }
+      a { color: var(--accent); font-weight: 600; }
+      .steps { margin: 0; padding-left: 1.2rem; color: var(--muted); }
+      .steps li { margin: 0.4rem 0; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="brand">S.T.E.P.S.</p>
+      <h1>Weekly Bible Study Platform</h1>
+      <p>
+        Scripture, Theme, Engagement, Prayer, and Share - a private weekly study
+        community with threaded reflections, custom reactions, and admin publishing.
+      </p>
+
+      <div class="card">
+        <h2>Source &amp; run locally</h2>
+        <p>
+          The interactive Next.js app lives in this repository. Clone it, install
+          dependencies, and start the dev server:
+        </p>
+        <pre>git clone https://github.com/steps-jccc/steps.git
+cd steps
+npm install
+npm run dev</pre>
+        <p>
+          Open <code>http://localhost:3000</code>. Full docs are in
+          <a href="https://github.com/steps-jccc/steps#readme">README.md</a>.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>What is included</h2>
+        <ul class="steps">
+          <li>Auth with admin / member roles</li>
+          <li>Weekly S.T.E.P.S. publishing and editing</li>
+          <li>Threaded comments and Heart / Prayer / Thinking reactions</li>
+          <li>Prayer requests with anonymity and moderation</li>
+          <li>Mobile-aware navigation for phones and laptops</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
